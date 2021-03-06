@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">J_M_Financial_1.0</string>
+
+    <!-- first_time_info_layout strings-->
+    <string name="philo">"We are looking to make finances a thing for everyone to be able to deal with in a manner that does not feel overwhelming. Our philosohpy is that your information is that, yours. We don't want anything that would make you feel uncomfortable. All we are looking to  do is help."</string>
+    <string name="first_time_first_name">What is your first name?</string>
+    <string name="first_time_first_name_box_hint">First Name</string>
+    <string name="first_time_last_name">What is your last name?</string>
+    <string name="first_time_last_name_box_hint">Last Name</string>
+    <string name="first_time_radio_button_flat">Flat Rate</string>
+    <string name="first_time_radio_button_percentage">Percentage</string>
+    <string name="first_time_amount_to_save_textview">When it comes to saving money, would you prefer a flat rate of money or a percentage of your income? (Monthly)</string>
+    <string name="first_time_amount_to_save_edittext">How much would you like to save?</string>
+    <string name="ft_button">"Let's Begin"</string>
+
+    <!-- budgeting_tab_layout strings -->
+    <string name="bt_update_money_but">Tap here to update liquid account values</string>
+    <string name="am_money_accounts_but">Tap to update liquid accounts</string>
+
+    <!-- add_account_layout strings -->
+    <string name="ac_scope">In this layout we will make it so the user can update liquid accounts</string>
+
+    <!-- add_money_layout strings -->
+    <string name="am_scope">in this layout we are going to make it so they can add money to bank or in cash value</string>
+
+    <!-- add_expense_info_layout -->
+    <string name="AE_scope">this layout has to allow users to select what account and the expenses they are adding to the account</string>
+    <string name="AE_notes">TODO Type of expense ie. luxuries/necessary/bill/daily spending\n ENUM?</string>
+    <string name="AE_account_adding_tag">Account to \n add expense to!</string>
+    <string name="AE_expense_name">Name your expense!</string>
+    <string name="AE_expense_name_hint">expense name</string>
+    <string name="AE_expense_worth">How much is this expense worth?</string>
+    <string name="AE_expense_worth_hint">how much?</string>
+    <string name="AE_add_expense">add expense</string>
+
+    <!-- nav_bar_menu items-->
+    <string name="bottom_navigation_first_item">Home</string>
+    <string name="bottom_navigation_second_item">Budget</string>
+    <string name="bottom_navigation_third_item">Last Fuck</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

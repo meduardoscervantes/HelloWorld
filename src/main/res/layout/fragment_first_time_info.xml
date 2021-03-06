@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/defaultPadding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/philo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/first_time_first_name" />
+
+    <EditText
+        android:id="@+id/FFT_firstname_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/first_time_first_name_box_hint"
+        android:gravity="center"
+        android:hint="@string/first_time_first_name_box_hint"
+        android:inputType="textFilter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/first_time_last_name" />
+
+    <EditText
+        android:id="@+id/FFT_lastname_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/first_time_last_name_box_hint"
+        android:gravity="center"
+        android:hint="@string/first_time_last_name_box_hint"
+        android:inputType="textFilter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/first_time_amount_to_save_textview" />
+
+    <RadioGroup
+        android:id="@+id/FFT_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/FFT_flat_rate_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_time_radio_button_flat" />
+
+        <RadioButton
+            android:id="@+id/FFT_percentage_rate_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_time_radio_button_percentage" />
+
+        <RadioButton
+            android:id="@+id/FFT_nothing_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Nothing" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/FFT_save_amount_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/first_time_amount_to_save_edittext"
+        android:gravity="center"
+        android:hint="@string/first_time_amount_to_save_edittext"
+        android:inputType="numberDecimal"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/FFT_begin_BUTT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/ft_button" />
+
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/error_message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/FFT_test_butt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEST BUTT" />
+    <TextView
+        android:id="@+id/test_FTIF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
